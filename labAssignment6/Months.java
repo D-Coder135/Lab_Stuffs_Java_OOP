@@ -8,4 +8,7 @@ public enum Months {
         this.numberOfDays = numberOfDays;
     }
 
+    public int getNumberOfDays() {
+        return numberOfDays;
+    }
 }
