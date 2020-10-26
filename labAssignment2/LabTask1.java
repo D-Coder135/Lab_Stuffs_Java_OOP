@@ -7,7 +7,7 @@
 //1. Create a program in Java that prints the following table.
 
 
-package labAssignment1;
+package labAssignment2;
 
 public class LabTask1 {
     public static void main(String[] args) {
