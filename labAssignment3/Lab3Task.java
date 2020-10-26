@@ -4,7 +4,7 @@
  *  Time: 01:54 PM
  *  File: Lab3Task.java
  */
-package labAssingnment3;
+package labAssignment3;
 
 import java.util.Scanner;
 
