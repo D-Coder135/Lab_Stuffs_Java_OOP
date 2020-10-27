@@ -27,7 +27,6 @@ public class Execution {
             case OCTOBER -> System.out.println(Months.OCTOBER.getTotalNumberOfDays() + " - " + currentDate + " = " + (Months.OCTOBER.getTotalNumberOfDays() - currentDate) + " Days left in " + Months.OCTOBER.name().toLowerCase() + "!");
             case NOVEMBER -> System.out.println(Months.NOVEMBER.getTotalNumberOfDays() + " - " + currentDate + " = " + (Months.NOVEMBER.getTotalNumberOfDays() - currentDate) + " Days left in " + Months.NOVEMBER.name().toLowerCase() + "!");
             case DECEMBER -> System.out.println(Months.DECEMBER.getTotalNumberOfDays() + " - " + currentDate + " = " + (Months.DECEMBER.getTotalNumberOfDays() - currentDate) + " Days left in " + Months.DECEMBER.name().toLowerCase() + "!");
-            default -> System.out.println("Invalid Month Name!");
         }
 
     }
