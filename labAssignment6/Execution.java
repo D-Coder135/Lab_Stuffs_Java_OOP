@@ -13,6 +13,7 @@ public class Execution {
     public static void main(String[] args) {
         String currentMonthName = new GregorianCalendar().getDisplayName(Calendar.MONTH, Calendar.LONG, Locale.ENGLISH);
         int currentDate = new GregorianCalendar().get(Calendar.DATE);
+        Months currentMonth = Months.valueOf(currentMonthName);
 
     }
 }
