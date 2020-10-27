@@ -6,4 +6,7 @@
 package labAssignment6;
 
 public class Execution {
+    public static void main(String[] args) {
+
+    }
 }
