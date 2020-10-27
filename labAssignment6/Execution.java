@@ -28,6 +28,5 @@ public class Execution {
             case NOVEMBER -> System.out.println(Months.NOVEMBER.getTotalNumberOfDays() + " - " + currentDate + " = " + (Months.NOVEMBER.getTotalNumberOfDays() - currentDate) + " Days left in " + Months.NOVEMBER.name().toLowerCase() + "!");
             case DECEMBER -> System.out.println(Months.DECEMBER.getTotalNumberOfDays() + " - " + currentDate + " = " + (Months.DECEMBER.getTotalNumberOfDays() - currentDate) + " Days left in " + Months.DECEMBER.name().toLowerCase() + "!");
         }
-
     }
 }
