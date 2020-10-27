@@ -15,18 +15,18 @@ public class Execution {
         int currentDate = new GregorianCalendar().get(Calendar.DATE);
         Months currentMonth = Months.valueOf(currentMonthName);
         switch (currentMonth) {
-            case JANUARY -> System.out.println(Months.JANUARY.getNumberOfDays() + " - " + currentDate + " = " + (Months.JANUARY.getNumberOfDays() - currentDate) + " Days left in " + Months.JANUARY.name().toLowerCase() + "!");
-            case FEBRUARY -> System.out.println(Months.FEBRUARY.getNumberOfDays() + " - " + currentDate + " = " + (Months.FEBRUARY.getNumberOfDays() - currentDate) + " Days left in " + Months.FEBRUARY.name().toLowerCase() + "!");
-            case MARCH -> System.out.println(Months.MARCH.getNumberOfDays() + " - " + currentDate + " = " + (Months.MARCH.getNumberOfDays() - currentDate) + " Days left in " + Months.MARCH.name().toLowerCase() + "!");
-            case APRIL -> System.out.println(Months.APRIL.getNumberOfDays() + " - " + currentDate + " = " + (Months.APRIL.getNumberOfDays() - currentDate) + " Days left in " + Months.APRIL.name().toLowerCase() + "!");
-            case MAY -> System.out.println(Months.MAY.getNumberOfDays() + " - " + currentDate + " = " + (Months.MAY.getNumberOfDays() - currentDate) + " Days left in " + Months.MAY.name().toLowerCase() + "!");
-            case JUNE -> System.out.println(Months.JUNE.getNumberOfDays() + " - " + currentDate + " = " + (Months.JUNE.getNumberOfDays() - currentDate) + " Days left in " + Months.JUNE.name().toLowerCase() + "!");
-            case JULY -> System.out.println(Months.JULY.getNumberOfDays() + " - " + currentDate + " = " + (Months.JULY.getNumberOfDays() - currentDate) + " Days left in " + Months.JULY.name().toLowerCase() + "!");
-            case AUGUST -> System.out.println(Months.AUGUST.getNumberOfDays() + " - " + currentDate + " = " + (Months.AUGUST.getNumberOfDays() - currentDate) + " Days left in " + Months.AUGUST.name().toLowerCase() + "!");
-            case SEPTEMBER -> System.out.println(Months.SEPTEMBER.getNumberOfDays() + " - " + currentDate + " = " + (Months.SEPTEMBER.getNumberOfDays() - currentDate) + " Days left in " + Months.SEPTEMBER.name().toLowerCase() + "!");
-            case OCTOBER -> System.out.println(Months.OCTOBER.getNumberOfDays() + " - " + currentDate + " = " + (Months.OCTOBER.getNumberOfDays() - currentDate) + " Days left in " + Months.OCTOBER.name().toLowerCase() + "!");
-            case NOVEMBER -> System.out.println(Months.NOVEMBER.getNumberOfDays() + " - " + currentDate + " = " + (Months.NOVEMBER.getNumberOfDays() - currentDate) + " Days left in " + Months.NOVEMBER.name().toLowerCase() + "!");
-            case DECEMBER -> System.out.println(Months.DECEMBER.getNumberOfDays() + " - " + currentDate + " = " + (Months.DECEMBER.getNumberOfDays() - currentDate) + " Days left in " + Months.DECEMBER.name().toLowerCase() + "!");
+            case JANUARY -> System.out.println(Months.JANUARY.getTotalNumberOfDays() + " - " + currentDate + " = " + (Months.JANUARY.getTotalNumberOfDays() - currentDate) + " Days left in " + Months.JANUARY.name().toLowerCase() + "!");
+            case FEBRUARY -> System.out.println(Months.FEBRUARY.getTotalNumberOfDays() + " - " + currentDate + " = " + (Months.FEBRUARY.getTotalNumberOfDays() - currentDate) + " Days left in " + Months.FEBRUARY.name().toLowerCase() + "!");
+            case MARCH -> System.out.println(Months.MARCH.getTotalNumberOfDays() + " - " + currentDate + " = " + (Months.MARCH.getTotalNumberOfDays() - currentDate) + " Days left in " + Months.MARCH.name().toLowerCase() + "!");
+            case APRIL -> System.out.println(Months.APRIL.getTotalNumberOfDays() + " - " + currentDate + " = " + (Months.APRIL.getTotalNumberOfDays() - currentDate) + " Days left in " + Months.APRIL.name().toLowerCase() + "!");
+            case MAY -> System.out.println(Months.MAY.getTotalNumberOfDays() + " - " + currentDate + " = " + (Months.MAY.getTotalNumberOfDays() - currentDate) + " Days left in " + Months.MAY.name().toLowerCase() + "!");
+            case JUNE -> System.out.println(Months.JUNE.getTotalNumberOfDays() + " - " + currentDate + " = " + (Months.JUNE.getTotalNumberOfDays() - currentDate) + " Days left in " + Months.JUNE.name().toLowerCase() + "!");
+            case JULY -> System.out.println(Months.JULY.getTotalNumberOfDays() + " - " + currentDate + " = " + (Months.JULY.getTotalNumberOfDays() - currentDate) + " Days left in " + Months.JULY.name().toLowerCase() + "!");
+            case AUGUST -> System.out.println(Months.AUGUST.getTotalNumberOfDays() + " - " + currentDate + " = " + (Months.AUGUST.getTotalNumberOfDays() - currentDate) + " Days left in " + Months.AUGUST.name().toLowerCase() + "!");
+            case SEPTEMBER -> System.out.println(Months.SEPTEMBER.getTotalNumberOfDays() + " - " + currentDate + " = " + (Months.SEPTEMBER.getTotalNumberOfDays() - currentDate) + " Days left in " + Months.SEPTEMBER.name().toLowerCase() + "!");
+            case OCTOBER -> System.out.println(Months.OCTOBER.getTotalNumberOfDays() + " - " + currentDate + " = " + (Months.OCTOBER.getTotalNumberOfDays() - currentDate) + " Days left in " + Months.OCTOBER.name().toLowerCase() + "!");
+            case NOVEMBER -> System.out.println(Months.NOVEMBER.getTotalNumberOfDays() + " - " + currentDate + " = " + (Months.NOVEMBER.getTotalNumberOfDays() - currentDate) + " Days left in " + Months.NOVEMBER.name().toLowerCase() + "!");
+            case DECEMBER -> System.out.println(Months.DECEMBER.getTotalNumberOfDays() + " - " + currentDate + " = " + (Months.DECEMBER.getTotalNumberOfDays() - currentDate) + " Days left in " + Months.DECEMBER.name().toLowerCase() + "!");
             default -> System.out.println("Invalid Month Name!");
         }
 

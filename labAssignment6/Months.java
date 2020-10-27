@@ -13,13 +13,13 @@ public enum Months {
     OCTOBER(31),
     NOVEMBER(30),
     DECEMBER(31);
-    private final int numberOfDays;
+    private final int totalNumberOfDays;
 
-    Months(int numberOfDays) {
-        this.numberOfDays = numberOfDays;
+    Months(int totalNumberOfDays) {
+        this.totalNumberOfDays = totalNumberOfDays;
     }
 
-    public int getNumberOfDays() {
-        return numberOfDays;
+    public int getTotalNumberOfDays() {
+        return totalNumberOfDays;
     }
 }
